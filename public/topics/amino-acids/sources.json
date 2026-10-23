@@ -2,141 +2,161 @@
  "glycine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL773/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL773) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "alanine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL279597/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL279597) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "valine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL43068/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL43068) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "leucine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL291962/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL291962) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "isoleucine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1233584/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL1233584) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "methionine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL42336/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL42336) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "proline": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL54922/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL54922) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "phenylalanine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL301523/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL301523) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "tyrosine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL925/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL925) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "tryptophan": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL54976/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL54976) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "serine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL11298/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL11298) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "threonine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL291747/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL291747) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "asparagine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL58832/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL58832) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "glutamine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL930/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL930) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "cysteine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL863/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL863) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "lysine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL8085/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL8085) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "arginine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1485/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL1485) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "histidine": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL17962/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL17962) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "aspartate": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL274323/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL274323) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  },
  "glutamate": {
   "status": "ok",
   "sources": [
+   "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL575060/",
    "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
   ],
-  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+  "note": "המבנה זהה ל-ChEMBL (CHEMBL575060) לפי InChIKey (שלד); נוסחת השרשרת הצדדית תואמת לרשימת חומצות האמינו הסטנדרטיות."
  }
 }

@@ -27,7 +27,8 @@ Read the material yourself (look at every page). List the items, the text fields
 ## 2. Verify every item against the web
 
 Each item needs at least one independent source, two when possible. Record them in the draft's `verify` block (`status`, `sources`, `note`).
-- **Chemistry**: if the ChEMBL connector is available, look each compound up there. Otherwise use Wikipedia pages (WebFetch). PubChem blocks automated access from these tools, so don't rely on it. Check the formula or side chain against the source (compute it from the SMILES with RDKit).
+- **Chemistry (ChEMBL connector, preferred)**: search `compound_search` with the compound's common name (for amino acids `L-<name>`; name search is a partial match, so pick the result whose `pref_name` is exactly the compound, and use `chembl_id` when you already know it). Compare the first 14 characters of the InChIKey from your SMILES (RDKit `MolToInchiKey`, map numbers cleared) with ChEMBL's `inchi_key`: equal means the same skeleton regardless of charge state. Source link: `https://www.ebi.ac.uk/chembl/compound_report_card/<CHEMBL_ID>/`.
+- **Chemistry (fallback)**: Wikipedia pages via WebFetch. PubChem blocks automated access from these tools, so don't rely on it. Check the formula or side chain against the source (compute it from the SMILES with RDKit).
 - **Other subjects**: Wikipedia or another reliable reference for each term.
 - If a source disagrees with the sheet, keep the sheet's wording, set `status: "check"`, and explain in `note`.
 - Never mark `ok` without a source you actually read.
