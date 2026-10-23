@@ -112,6 +112,7 @@ function fillFace(el, c, k, extras){
   if (extras){
     const parts = fieldOpts().filter(o => o.k!==cfg.front && o.k!==cfg.back && o.k!==IMG).map(o => valOf(c,o.k)).filter(Boolean);
     if (parts.length){ const x = document.createElement('div'); x.className = 'extra'; x.innerHTML = parts.map(p=>`<span class="chip">${esc(p)}</span>`).join(''); el.appendChild(x); }
+    if (c.credit){ const cr = document.createElement('div'); cr.className = 'credit'; cr.textContent = c.credit; el.appendChild(cr); }
   }
 }
 function updateBar(){

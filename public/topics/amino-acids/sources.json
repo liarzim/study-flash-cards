@@ -1,0 +1,142 @@
+{
+ "glycine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "alanine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "valine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "leucine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "isoleucine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "methionine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "proline": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "phenylalanine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "tyrosine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "tryptophan": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "serine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "threonine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "asparagine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "glutamine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "cysteine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "lysine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "arginine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "histidine": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "aspartate": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ },
+ "glutamate": {
+  "status": "ok",
+  "sources": [
+   "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+  ],
+  "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+ }
+}

@@ -36,6 +36,11 @@ def svg(smiles):
   o.updateAtomPalette({7:(0.11,0.37,0.55),8:(0.76,0.17,0.15),16:(0.60,0.42,0.0)})
   rdMolDraw2D.PrepareAndDrawMolecule(d,m,highlightAtoms=hl,highlightBonds=hb)
   d.FinishDrawing(); return d.GetDrawingText()
+def svg_file(smiles, path):
+  import re
+  out=re.sub(r"<\?xml[^>]*\?>\s*","",svg(smiles)).replace('<!-- END OF HEADER -->','')
+  with open(path,'w',encoding='utf-8') as f: f.write(out)
+
 if __name__=='__main__':
   # usage: python tools/render_mol.py [topic-id]   (default: amino-acids)
   import os, re
@@ -44,6 +49,5 @@ if __name__=='__main__':
   topic=json.load(open(os.path.join(base,'topic.json'),encoding='utf-8'))
   for c in topic['cards']:
     if not c.get('smiles'): continue
-    out=re.sub(r"<\?xml[^>]*\?>\s*","",svg(c['smiles'])).replace('<!-- END OF HEADER -->','')
-    open(os.path.join(base,c['image']),'w',encoding='utf-8').write(out)
+    svg_file(c['smiles'], os.path.join(base,c['image']))
     print('drew',c['image'])

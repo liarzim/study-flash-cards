@@ -1,0 +1,376 @@
+{
+ "id": "amino-acids",
+ "title": "חומצות אמינו",
+ "subtitle": "20 חומצות האמינו הסטנדרטיות במבנה דו-יוני (pH 7)",
+ "imageLabel": "מבנה",
+ "groupLabel": "קבוצה",
+ "fields": [
+  {
+   "key": "name",
+   "label": "שם"
+  },
+  {
+   "key": "abbr3",
+   "label": "קיצור (3 אותיות)"
+  },
+  {
+   "key": "abbr1",
+   "label": "קיצור (אות אחת)"
+  }
+ ],
+ "groups": [
+  "Hydrophobic",
+  "Aromatic",
+  "Polar",
+  "Positively charged",
+  "Negatively charged"
+ ],
+ "notes": "המבנים צוירו מנתוני SMILES עם RDKit; השרשרת הצדדית מסומנת באפור. נוסחאות השרשראות הצדדיות אומתו מול רשימת חומצות האמינו הסטנדרטיות.",
+ "covers": [
+  "tryptophan",
+  "proline",
+  "histidine"
+ ],
+ "cards": [
+  {
+   "id": "glycine",
+   "values": {
+    "name": "Glycine",
+    "abbr3": "Gly",
+    "abbr1": "G"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[NH3+]CC(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "alanine",
+   "values": {
+    "name": "Alanine",
+    "abbr3": "Ala",
+    "abbr1": "A"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[NH3+]C([CH3:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "valine",
+   "values": {
+    "name": "Valine",
+    "abbr3": "Val",
+    "abbr1": "V"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[NH3+]C([CH:1]([CH3:1])[CH3:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "leucine",
+   "values": {
+    "name": "Leucine",
+    "abbr3": "Leu",
+    "abbr1": "L"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[NH3+]C([CH2:1][CH:1]([CH3:1])[CH3:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "isoleucine",
+   "values": {
+    "name": "Isoleucine",
+    "abbr3": "Ile",
+    "abbr1": "I"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[NH3+]C([CH:1]([CH3:1])[CH2:1][CH3:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "methionine",
+   "values": {
+    "name": "Methionine",
+    "abbr3": "Met",
+    "abbr1": "M"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][S:1][CH3:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "proline",
+   "values": {
+    "name": "Proline",
+    "abbr3": "Pro",
+    "abbr1": "P"
+   },
+   "group": "Hydrophobic",
+   "smiles": "[O-]C(=O)C1[CH2:1][CH2:1][CH2:1][NH2+]1",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "phenylalanine",
+   "values": {
+    "name": "Phenylalanine",
+    "abbr3": "Phe",
+    "abbr1": "F"
+   },
+   "group": "Aromatic",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][CH:1]=[CH:1][CH:1]=[CH:1]1)C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "tyrosine",
+   "values": {
+    "name": "Tyrosine",
+    "abbr3": "Tyr",
+    "abbr1": "Y"
+   },
+   "group": "Aromatic",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][CH:1]=[C:1]([OH:1])[CH:1]=[CH:1]1)C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "tryptophan",
+   "values": {
+    "name": "Tryptophan",
+    "abbr3": "Trp",
+    "abbr1": "W"
+   },
+   "group": "Aromatic",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][NH:1][C:1]2=[CH:1][CH:1]=[CH:1][CH:1]=[C:1]12)C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "serine",
+   "values": {
+    "name": "Serine",
+    "abbr3": "Ser",
+    "abbr1": "S"
+   },
+   "group": "Polar",
+   "smiles": "[NH3+]C([CH2:1][OH:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "threonine",
+   "values": {
+    "name": "Threonine",
+    "abbr3": "Thr",
+    "abbr1": "T"
+   },
+   "group": "Polar",
+   "smiles": "[NH3+]C([CH:1]([OH:1])[CH3:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "asparagine",
+   "values": {
+    "name": "Asparagine",
+    "abbr3": "Asn",
+    "abbr1": "N"
+   },
+   "group": "Polar",
+   "smiles": "[NH3+]C([CH2:1][C:1](=[O:1])[NH2:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "glutamine",
+   "values": {
+    "name": "Glutamine",
+    "abbr3": "Gln",
+    "abbr1": "Q"
+   },
+   "group": "Polar",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][C:1](=[O:1])[NH2:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "cysteine",
+   "values": {
+    "name": "Cysteine",
+    "abbr3": "Cys",
+    "abbr1": "C"
+   },
+   "group": "Polar",
+   "smiles": "[NH3+]C([CH2:1][SH:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "lysine",
+   "values": {
+    "name": "Lysine",
+    "abbr3": "Lys",
+    "abbr1": "K"
+   },
+   "group": "Positively charged",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][CH2:1][CH2:1][NH3+:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "arginine",
+   "values": {
+    "name": "Arginine",
+    "abbr3": "Arg",
+    "abbr1": "R"
+   },
+   "group": "Positively charged",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][CH2:1][NH:1][C:1](=[NH2+:1])[NH2:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "histidine",
+   "values": {
+    "name": "Histidine",
+    "abbr3": "His",
+    "abbr1": "H"
+   },
+   "group": "Positively charged",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][NH:1][CH:1]=[N:1]1)C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "aspartate",
+   "values": {
+    "name": "Aspartate",
+    "abbr3": "Asp",
+    "abbr1": "D"
+   },
+   "group": "Negatively charged",
+   "smiles": "[NH3+]C([CH2:1][C:1](=[O:1])[O-:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  },
+  {
+   "id": "glutamate",
+   "values": {
+    "name": "Glutamate",
+    "abbr3": "Glu",
+    "abbr1": "E"
+   },
+   "group": "Negatively charged",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][C:1](=[O:1])[O-:1])C(=O)[O-]",
+   "verify": {
+    "status": "ok",
+    "sources": [
+     "https://www.bionity.com/en/encyclopedia/List_of_standard_amino_acids.html"
+    ],
+    "note": "נוסחת השרשרת הצדדית תואמת למקור; המבנה צויר מ-SMILES (דו-יוני, pH 7)."
+   }
+  }
+ ]
+}
