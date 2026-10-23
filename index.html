@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Study Flash Cards</title>
+<meta name="description" content="כרטיסיות לימוד לסטודנטים: היפוך ומבחן אמריקאי, לפי נושאים.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular+One&family=Assistant:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+<!-- HOME -->
+<section id="v-home">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Study Flash Cards</div>
+      <h1>כרטיסיות לימוד</h1>
+      <p class="muted lead">בחרו נושא, בחרו מה תראו ומה צריך לזהות, ותתחילו לתרגל.</p>
+    </div>
+  </header>
+  <div class="row between"><h2>נושאים</h2><span class="status" id="home-status">טוען…</span></div>
+  <div class="grid" id="topics"></div>
+</section>
+
+<!-- STUDY -->
+<section id="v-study" hidden>
+  <header class="top">
+    <div><div class="eyebrow" id="s-eyebrow"></div><h1 id="s-title"></h1><p class="muted lead" id="s-sub"></p></div>
+    <a class="btn ghost" href="#">חזרה לנושאים</a>
+  </header>
+
+  <div class="sheet stack" id="s-setup">
+    <div class="setup">
+      <label class="fld" for="s-front">מה יוצג בכרטיסייה<select id="s-front"></select></label>
+      <label class="fld" for="s-back">מה צריך לזהות<select id="s-back"></select></label>
+      <div class="fld"><span>מצב לימוד</span>
+        <div class="seg" role="group" aria-label="מצב לימוד"><button id="m-flip" aria-pressed="true">היפוך</button><button id="m-mcq" aria-pressed="false">אמריקאי</button></div></div>
+    </div>
+    <div class="fld"><span>קבוצות</span><div class="chips" id="s-groups"></div></div>
+    <div class="row"><label class="row check" for="s-shuffle"><input type="checkbox" id="s-shuffle" checked> ערבוב כרטיסיות</label><span class="status" id="s-count"></span></div>
+    <div><button class="btn primary" id="b-start">התחל</button></div>
+  </div>
+
+  <div id="s-run" hidden>
+    <div class="row between">
+      <span class="status mono" id="r-pos"></span>
+      <div class="row"><button class="btn" id="b-reshuffle">ערבב מחדש</button><button class="btn ghost" id="b-setup">הגדרות</button></div>
+    </div>
+    <div class="progress"><i id="r-bar"></i></div>
+
+    <div id="run-flip">
+      <div class="stage"><div class="card" id="card" tabindex="0" role="button" aria-label="הפוך כרטיסייה">
+        <div class="face front" id="f-front"></div><div class="face back" id="f-back"></div></div></div>
+      <div class="judge"><button class="btn bad" id="b-no">לא ידעתי</button><button class="btn" id="b-flip">הפוך</button><button class="btn good" id="b-yes">ידעתי</button></div>
+      <p class="hint muted">רווח להיפוך · חץ שמאלה = ידעתי · חץ ימינה = לא ידעתי</p>
+    </div>
+
+    <div id="run-mcq" hidden>
+      <div class="stage flat"><div class="card static"><div class="face" id="q-front"></div></div></div>
+      <div class="opts" id="q-opts"></div>
+      <div class="judge"><button class="btn primary" id="b-next" hidden>הבא</button></div>
+    </div>
+
+    <div id="run-done" class="sheet done" hidden>
+      <h2>סיימתם סבב</h2>
+      <div class="score"><span class="good-t" id="d-good"></span><span class="bad-t" id="d-bad"></span></div>
+      <div class="row center"><button class="btn primary" id="b-retry">חזרה על הטעויות</button><button class="btn" id="b-again">סבב חדש מעורבב</button></div>
+    </div>
+    <div class="score" id="live-score"></div>
+  </div>
+</section>
+
+<footer class="foot muted">Study Flash Cards · מבנים כימיים צוירו עם RDKit</footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

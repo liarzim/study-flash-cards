@@ -1,0 +1,251 @@
+{
+ "id": "amino-acids",
+ "title": "חומצות אמינו",
+ "subtitle": "20 חומצות האמינו הסטנדרטיות במבנה דו-יוני (pH 7)",
+ "fields": [
+  {
+   "key": "name",
+   "label": "שם"
+  },
+  {
+   "key": "abbr3",
+   "label": "קיצור (3 אותיות)"
+  },
+  {
+   "key": "abbr1",
+   "label": "קיצור (אות אחת)"
+  }
+ ],
+ "imageLabel": "מבנה",
+ "groupLabel": "קבוצה",
+ "groups": [
+  "Hydrophobic",
+  "Aromatic",
+  "Polar",
+  "Positively charged",
+  "Negatively charged"
+ ],
+ "cards": [
+  {
+   "id": "glycine",
+   "values": {
+    "name": "Glycine",
+    "abbr3": "Gly",
+    "abbr1": "G"
+   },
+   "group": "Hydrophobic",
+   "image": "images/glycine.svg",
+   "smiles": "[NH3+]CC(=O)[O-]"
+  },
+  {
+   "id": "alanine",
+   "values": {
+    "name": "Alanine",
+    "abbr3": "Ala",
+    "abbr1": "A"
+   },
+   "group": "Hydrophobic",
+   "image": "images/alanine.svg",
+   "smiles": "[NH3+]C([CH3:1])C(=O)[O-]"
+  },
+  {
+   "id": "valine",
+   "values": {
+    "name": "Valine",
+    "abbr3": "Val",
+    "abbr1": "V"
+   },
+   "group": "Hydrophobic",
+   "image": "images/valine.svg",
+   "smiles": "[NH3+]C([CH:1]([CH3:1])[CH3:1])C(=O)[O-]"
+  },
+  {
+   "id": "leucine",
+   "values": {
+    "name": "Leucine",
+    "abbr3": "Leu",
+    "abbr1": "L"
+   },
+   "group": "Hydrophobic",
+   "image": "images/leucine.svg",
+   "smiles": "[NH3+]C([CH2:1][CH:1]([CH3:1])[CH3:1])C(=O)[O-]"
+  },
+  {
+   "id": "isoleucine",
+   "values": {
+    "name": "Isoleucine",
+    "abbr3": "Ile",
+    "abbr1": "I"
+   },
+   "group": "Hydrophobic",
+   "image": "images/isoleucine.svg",
+   "smiles": "[NH3+]C([CH:1]([CH3:1])[CH2:1][CH3:1])C(=O)[O-]"
+  },
+  {
+   "id": "methionine",
+   "values": {
+    "name": "Methionine",
+    "abbr3": "Met",
+    "abbr1": "M"
+   },
+   "group": "Hydrophobic",
+   "image": "images/methionine.svg",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][S:1][CH3:1])C(=O)[O-]"
+  },
+  {
+   "id": "proline",
+   "values": {
+    "name": "Proline",
+    "abbr3": "Pro",
+    "abbr1": "P"
+   },
+   "group": "Hydrophobic",
+   "image": "images/proline.svg",
+   "smiles": "[O-]C(=O)C1[CH2:1][CH2:1][CH2:1][NH2+]1"
+  },
+  {
+   "id": "phenylalanine",
+   "values": {
+    "name": "Phenylalanine",
+    "abbr3": "Phe",
+    "abbr1": "F"
+   },
+   "group": "Aromatic",
+   "image": "images/phenylalanine.svg",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][CH:1]=[CH:1][CH:1]=[CH:1]1)C(=O)[O-]"
+  },
+  {
+   "id": "tyrosine",
+   "values": {
+    "name": "Tyrosine",
+    "abbr3": "Tyr",
+    "abbr1": "Y"
+   },
+   "group": "Aromatic",
+   "image": "images/tyrosine.svg",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][CH:1]=[C:1]([OH:1])[CH:1]=[CH:1]1)C(=O)[O-]"
+  },
+  {
+   "id": "tryptophan",
+   "values": {
+    "name": "Tryptophan",
+    "abbr3": "Trp",
+    "abbr1": "W"
+   },
+   "group": "Aromatic",
+   "image": "images/tryptophan.svg",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][NH:1][C:1]2=[CH:1][CH:1]=[CH:1][CH:1]=[C:1]12)C(=O)[O-]"
+  },
+  {
+   "id": "serine",
+   "values": {
+    "name": "Serine",
+    "abbr3": "Ser",
+    "abbr1": "S"
+   },
+   "group": "Polar",
+   "image": "images/serine.svg",
+   "smiles": "[NH3+]C([CH2:1][OH:1])C(=O)[O-]"
+  },
+  {
+   "id": "threonine",
+   "values": {
+    "name": "Threonine",
+    "abbr3": "Thr",
+    "abbr1": "T"
+   },
+   "group": "Polar",
+   "image": "images/threonine.svg",
+   "smiles": "[NH3+]C([CH:1]([OH:1])[CH3:1])C(=O)[O-]"
+  },
+  {
+   "id": "asparagine",
+   "values": {
+    "name": "Asparagine",
+    "abbr3": "Asn",
+    "abbr1": "N"
+   },
+   "group": "Polar",
+   "image": "images/asparagine.svg",
+   "smiles": "[NH3+]C([CH2:1][C:1](=[O:1])[NH2:1])C(=O)[O-]"
+  },
+  {
+   "id": "glutamine",
+   "values": {
+    "name": "Glutamine",
+    "abbr3": "Gln",
+    "abbr1": "Q"
+   },
+   "group": "Polar",
+   "image": "images/glutamine.svg",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][C:1](=[O:1])[NH2:1])C(=O)[O-]"
+  },
+  {
+   "id": "cysteine",
+   "values": {
+    "name": "Cysteine",
+    "abbr3": "Cys",
+    "abbr1": "C"
+   },
+   "group": "Polar",
+   "image": "images/cysteine.svg",
+   "smiles": "[NH3+]C([CH2:1][SH:1])C(=O)[O-]"
+  },
+  {
+   "id": "lysine",
+   "values": {
+    "name": "Lysine",
+    "abbr3": "Lys",
+    "abbr1": "K"
+   },
+   "group": "Positively charged",
+   "image": "images/lysine.svg",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][CH2:1][CH2:1][NH3+:1])C(=O)[O-]"
+  },
+  {
+   "id": "arginine",
+   "values": {
+    "name": "Arginine",
+    "abbr3": "Arg",
+    "abbr1": "R"
+   },
+   "group": "Positively charged",
+   "image": "images/arginine.svg",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][CH2:1][NH:1][C:1](=[NH2+:1])[NH2:1])C(=O)[O-]"
+  },
+  {
+   "id": "histidine",
+   "values": {
+    "name": "Histidine",
+    "abbr3": "His",
+    "abbr1": "H"
+   },
+   "group": "Positively charged",
+   "image": "images/histidine.svg",
+   "smiles": "[NH3+]C([CH2:1][C:1]1=[CH:1][NH:1][CH:1]=[N:1]1)C(=O)[O-]"
+  },
+  {
+   "id": "aspartate",
+   "values": {
+    "name": "Aspartate",
+    "abbr3": "Asp",
+    "abbr1": "D"
+   },
+   "group": "Negatively charged",
+   "image": "images/aspartate.svg",
+   "smiles": "[NH3+]C([CH2:1][C:1](=[O:1])[O-:1])C(=O)[O-]"
+  },
+  {
+   "id": "glutamate",
+   "values": {
+    "name": "Glutamate",
+    "abbr3": "Glu",
+    "abbr1": "E"
+   },
+   "group": "Negatively charged",
+   "image": "images/glutamate.svg",
+   "smiles": "[NH3+]C([CH2:1][CH2:1][C:1](=[O:1])[O-:1])C(=O)[O-]"
+  }
+ ],
+ "notes": "המבנים צוירו מנתוני SMILES עם RDKit; השרשרת הצדדית מסומנת באפור. נוסחאות השרשראות הצדדיות אומתו מול רשימת חומצות האמינו הסטנדרטיות."
+}

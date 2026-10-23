@@ -1,0 +1,22 @@
+{
+ "topics": [
+  {
+   "id": "amino-acids",
+   "title": "חומצות אמינו",
+   "subtitle": "20 חומצות האמינו הסטנדרטיות במבנה דו-יוני (pH 7)",
+   "count": 20,
+   "groups": [
+    "Hydrophobic",
+    "Aromatic",
+    "Polar",
+    "Positively charged",
+    "Negatively charged"
+   ],
+   "covers": [
+    "images/tryptophan.svg",
+    "images/proline.svg",
+    "images/histidine.svg"
+   ]
+  }
+ ]
+}
