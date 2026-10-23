@@ -40,7 +40,7 @@ if __name__=='__main__':
   # usage: python tools/render_mol.py [topic-id]   (default: amino-acids)
   import os, re
   tid=sys.argv[1] if len(sys.argv)>1 else 'amino-acids'
-  base=os.path.join(os.path.dirname(__file__),'..','topics',tid)
+  base=os.path.join(os.path.dirname(__file__),'..','public','topics',tid)
   topic=json.load(open(os.path.join(base,'topic.json'),encoding='utf-8'))
   for c in topic['cards']:
     if not c.get('smiles'): continue

@@ -7,11 +7,12 @@
 ## מבנה הפרויקט
 
 ```
-index.html            דף הנחיתה ומסך הלימוד
-assets/               עיצוב, קוד ואייקון
-topics/index.json     רשימת הנושאים שמוצגת בדף הנחיתה
-topics/<id>/topic.json  השדות, הקבוצות והכרטיסיות של נושא
-topics/<id>/images/   תמונות הכרטיסיות (SVG)
+public/                         כל מה שמתפרסם באתר
+public/index.html               דף הנחיתה ומסך הלימוד
+public/assets/                  עיצוב, קוד ואייקון
+public/topics/index.json        רשימת הנושאים שמוצגת בדף הנחיתה
+public/topics/<id>/topic.json   השדות, הקבוצות והכרטיסיות של נושא
+public/topics/<id>/images/      תמונות הכרטיסיות (SVG)
 tools/render_mol.py   ציור מבנים כימיים מ-SMILES עם RDKit
 ```
 
@@ -21,7 +22,7 @@ tools/render_mol.py   ציור מבנים כימיים מ-SMILES עם RDKit
 
 1. שולחים את דף הלימוד (תמונה, PDF או Word) ל-Claude בפרויקט "Study Flash Cards".
 2. Claude מזהה את הפריטים, מאמת את התוכן מול מקור חיצוני, מכין תמונות באיכות גבוהה ובודק אותן מול הדף.
-3. הנושא נוסף כתיקייה חדשה תחת `topics/` ונרשם ב-`topics/index.json`.
+3. הנושא נוסף כתיקייה חדשה תחת `public/topics/` ונרשם ב-`public/topics/index.json`.
 4. דחיפה ל-GitHub מעדכנת את Vercel אוטומטית.
 
 ### מבנה `topic.json`
@@ -41,13 +42,13 @@ tools/render_mol.py   ציור מבנים כימיים מ-SMILES עם RDKit
 ## הרצה מקומית
 
 ```
-python -m http.server 8000
+python -m http.server 8000 --directory public
 ```
 ואז לפתוח http://localhost:8000
 
 ## פריסה ל-Vercel
 
-ב-Vercel: Add New → Project → Import לריפו הזה. בלי Build Command ובלי Output Directory (ברירת המחדל). מאותו רגע כל push ל-`main` מתפרסם.
+ב-Vercel: Add New → Project → Import לריפו הזה. Framework Preset: Other. ההגדרות נקבעות ב-`vercel.json` (תיקיית הפלט: `public`). מאותו רגע כל push ל-`main` מתפרסם.
 
 ## ציור מבנים כימיים
 
