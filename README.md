@@ -52,7 +52,7 @@ python -m http.server 8000
 ## ציור מבנים כימיים
 
 ```
-pip install -r tools/requirements.txt
+pip install -r tools/requirements-dev.txt
 python tools/render_mol.py
 ```
 המבנים מצוירים מ-SMILES עם RDKit: אותו קנה מידה לכל המולקולות, ⁺H₃N משמאל, ⁻COO מימין, השרשרת הצדדית למעלה ומסומנת באפור. אטומים שמסומנים `:1` ב-SMILES מודגשים.
