@@ -1,7 +1,6 @@
 {
   "framework": null,
-  "installCommand": "",
-  "buildCommand": "",
+  "buildCommand": "echo 'Static site: no build step'",
   "outputDirectory": "public",
   "cleanUrls": true,
   "headers": [
